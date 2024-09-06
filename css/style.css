@@ -1,0 +1,213 @@
+a:link {
+    color:#FFFFFF;
+}
+a:visited {
+    color:#6984FF;
+}
+
+html {
+	 overflow-y: scroll;
+}
+
+body {
+	background-color:#131956;
+    width: 960px;
+    margin: 8px auto;
+    line-height: 1.6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+header {    
+  width: 960px;
+  height: 150px;
+  background-image: url('../layout/crystalisheader11.png');
+  background-color: #6984FF;
+}
+
+footer {
+    clear: both;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../layout/bottomborder.png');
+    text-align: center;
+}
+
+section {
+    padding: 10px 8px 10px 8px;
+    background-color: #6984FF;
+    background-image: url('../layout/subheader11.png'),url('../layout/border.png');
+    background-repeat: no-repeat, repeat-y;
+    height: 100%;
+    width: 944px;
+    float: left;
+}
+
+/* Note: Sum of next three widths should equal the <section> width */
+#left-col {
+    float: left;
+    width: 152px;
+}
+    
+main {
+    float: left;
+    width: 640px;
+    height: auto;
+}
+    
+#right-col {
+    float: right;
+    width: 152px;
+}
+
+article {
+    width: 598px;
+    padding: 10px 20px;
+    border-width: 1px;
+    background-color: #232E99;
+    margin: 10px auto;
+    border-radius: 10px 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-style: solid;
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	text-shadow: #000000 2px 2px;
+}
+
+h2 {
+	font-size: 14pt;
+	font-weight: bold;
+	margin: 0px;
+	text-shadow: #000000 2px 2px;
+}
+
+nav > img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+p {
+	text-indent: 40px;
+}
+
+/**************** Styles for <nav> icons and hover. ******************/
+
+#story {
+    background: url(../layout/story.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#characters {
+    background: url(../layout/characters.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#world {
+    background: url(../layout/world.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#walkthrough {
+    background: url(../layout/walkthrough.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#music {
+    background: url(../layout/music.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#links {
+    background: url(../layout/links.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#swords {
+    background: url(../layout/swords.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#armor {
+    background: url(../layout/armor.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#items {
+    background: url(../layout/items.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#spells {
+    background: url(../layout/spells.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+#enemies {
+    background: url(../layout/enemies.png) no-repeat;
+	margin:15px auto 5px auto;
+    display: block;
+    height: 72px;
+    width: 72px;
+}
+
+#story:hover {
+    background-position: -72px 0;
+}
+#characters:hover {
+    background-position: -72px 0;
+}
+#world:hover {
+    background-position: -72px 0;
+}
+#walkthrough:hover {
+    background-position: -72px 0;
+}
+#music:hover {
+    background-position: -72px 0;
+}
+#links:hover {
+    background-position: -72px 0;
+}
+#swords:hover {
+    background-position: -72px 0;
+}
+#armor:hover {
+    background-position: -72px 0;
+}
+#items:hover {
+    background-position: -72px 0;
+}
+#spells:hover {
+    background-position: -72px 0;
+}
+#enemies:hover {
+    background-position: -72px 0;
+}

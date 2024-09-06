@@ -1,0 +1,73 @@
+/* Styles for basic layout of pages */
+#container {
+  width:960px;
+  margin:auto;
+}
+
+#header {
+  width:960px;
+  height:150px;
+  background-image:url('../layout/crystalisheader11.png');
+  background-color:#6984FF;
+}
+
+#content {
+  padding: 10px 8px 10px 8px;
+  background-color:#6984FF;
+  background-image:url('../layout/subheader11.png'),url('../layout/border.png');
+  background-repeat:no-repeat,repeat-y;
+  height:100%;
+  width:944px;
+  float:left;
+}
+
+	/* Note: Sum of next three widths should equal the #content width */
+#leftmenu {
+  float:left;
+  width:152px;
+}
+
+#body {
+  float:left;
+  width:640px;
+  height:auto;
+}
+
+#rightmenu {
+  float:right;
+  width:152px;
+}
+
+#footer {
+  background-color:#131956;
+  background-image:url('../layout/bottomborder.png');
+  background-repeat:no-repeat;
+  clear:both;
+  text-align:center;
+  padding-top:10px;
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  color: #FFFFFF;
+}
+
+/* Styles for side-by-side columns */
+#musicdl {
+	width:300px;
+	float:left;
+}
+#musicfl {
+	width:300px;
+	float:right;
+}
+
+
+/* Style for clearing float behavior */
+.clear {
+	clear:both;
+}
+
+/* Style for centering images in "About Crystalis" section */
+.centerimages {
+  padding-bottom: 10px;
+  display: table; /* shrink wrap the contents */
+  margin: 0 auto; /* center via left/right margins */
+}

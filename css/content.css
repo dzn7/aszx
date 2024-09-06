@@ -1,0 +1,241 @@
+/**********************/
+/* Styles for content */
+/**********************/
+
+/* Note: Width of .newsbox should be the width of #content - 22 */
+.newsbox {
+padding:10px;
+background-color:#232E99;
+width:618px;
+margin:10px auto;
+line-height: 1.6;
+font-family: "Avant Garde", Arial, Helvetica;
+color: #FFFFFF;
+border-radius: 10px 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-style:solid;
+border-width:1px;
+}
+
+.worldmap {
+padding:0px;
+width:300px;
+margin:auto;
+}
+
+/* Styles for tabulated data such as items/spells */
+td {
+	vertical-align:top;
+}
+
+/* Style setting height for Spell content for consistency */
+.spells td {
+	height:140px;
+}
+
+/* Style setting height for Swords content for consistency */
+.swords td {
+	height:190px;
+}
+
+/* Style setting height for Item content for consistency */
+.items td {
+	height:130px;
+}
+
+/* Style setting height for Swords content for consistency */
+.enemies td {
+	height:250px;
+}
+
+.shields td {
+
+}
+
+.armor td {
+
+}
+
+/* Style setting up rounded corners on left table cell (with image) */
+.altleft {
+	border-radius: 10px 0px 0px 10px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	background-color:#1D287F;	
+}
+/* Style setting up rounded corners on right table cell (with data) */
+.altright {
+	border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	background-color:#1D287F;
+}
+
+.alt {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	background-color:#1D287F;
+}
+
+/* Styles for Items table */
+table.items {
+	margin:auto;
+	border-collapse:collapse;
+	}
+	
+/* Styles for Swords table */
+table.swords {
+	margin:auto;
+	border-collapse:collapse;
+}
+
+/* Styles for Spells table */
+table.spells {
+	margin:auto;
+	border-collapse:collapse;
+}
+
+/* Styles for Armor table */
+table.armor {
+	margin:auto;
+	border-collapse:collapse;
+}
+
+/* Styles for Shields table */
+table.shields {
+	margin:auto;
+	border-collapse:collapse;
+}
+
+/* Styles for Swords table */
+table.enemies {
+	margin:auto;
+	border-collapse:collapse;
+}
+
+
+/* Style for generic text paragraph */
+p {
+	text-indent:20px;
+	margin-top:0px;
+}
+
+/* Style for news title text */
+p.newstitle {
+	margin-top:0px;
+	text-indent:0px;
+}
+
+/* Style for names of items/spells/etc */
+p.listtitle {
+	margin:0px;
+	text-indent:-20px;
+	padding-left:20px;
+	font-size:14pt;
+	text-shadow:#000000 2px 2px;
+}
+/* Style for information about items/spells/etc such as description */
+p.list {
+	margin:0px;
+	text-indent:-20px;
+	padding-left:20px;
+}
+
+p.accessories {
+	margin-top:20px;
+	margin-bottom:0px;
+}
+
+/* Style for horizontal rule */
+hr {
+	width:80%;
+	height:1px;
+	border-width:0;
+	color:white;
+	background-color:white;
+}
+
+/* Styles for headings */
+h1 {
+	font-variant:small-caps;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	text-shadow:#000000 2px 2px;
+}
+h2 {
+	font-size: 14pt;
+	font-weight: bold;
+	margin: 0px;
+	text-shadow:#000000 2px 2px;
+}
+
+/* Style for preventing text-wrap */
+.my-nowrap {
+	white-space:nowrap;
+}
+
+/* Styles for navigating up and down a single page*/
+/* Style for list of page links */
+
+.innernavbox {
+	padding:5px;
+	background-color:#232E99;
+	width:300px;
+	margin:auto;
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	color: #FFFFFF;
+	border-radius: 10px 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-style:solid;
+	border-width:1px;
+}
+
+.innernavbox2 {
+	padding:5px;
+	background-color:#232E99;
+	width:400px;
+	margin:auto;
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	color: #FFFFFF;
+	border-radius: 10px 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-style:solid;
+	border-width:1px;
+}
+
+.innernav1 {
+	text-align:center;
+	margin:0px;
+}
+/* Style for "Use CTRL-F to search" text */
+.innernav2 {
+	text-align:center;
+	font-size:10pt;
+	margin:0px;
+}
+
+ul.noindent {
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.enemy_td {
+  height: 75px;
+  vertical-align: middle;
+}
+
+.enemy_table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  background-color:#1D287F;
+}
